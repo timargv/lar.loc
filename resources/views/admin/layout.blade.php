@@ -9,6 +9,24 @@
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="/css/admin.css">
 
+  <style type="text/css">
+
+    td.table_form form {
+      display: inline-block;
+    }
+    button.delete:hover,
+    button.delete:focus,
+    button.delete:active,
+    button.delete {
+      display: inline-block;
+      border: none;
+      background: transparent !important;
+      padding: 0;
+      outline: none !important;
+      box-shadow: none;
+    }
+  </style>
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
