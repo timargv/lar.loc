@@ -211,7 +211,7 @@ class Post extends Model
         return $this->setFeatured();
     }
 
-    //-end
+    //-end--
 
 
 
