@@ -41,7 +41,7 @@
 								@foreach ($categories as $category)
 									<tr>
 										<td>{{$category->id}}</td>
-										<td>{{$category->title}}</td>
+										<td><a href="{{ route('categories.edit', $category->id) }}">{{$category->title}}</a></td>
 										<td>{{$category->description}}</td>
 										<td class="table_form"><a href="{{ route('categories.edit', $category->id) }}" class="fa fa-pencil"></a>
 

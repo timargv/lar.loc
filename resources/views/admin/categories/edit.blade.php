@@ -32,8 +32,10 @@
       </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          <a href="{{ route('categories.index') }}" class="btn btn-default">Назад</a>
-          <button class="btn btn-warning pull-right">Изменить</button>
+					<div class="col-xs-12 clearfix">
+          	<a href="{{ route('categories.index') }}" class="btn btn-default">Назад</a>
+          	<button class="btn btn-warning pull-right">Изменить</button>
+					</div>
         </div>
         <!-- /.box-footer-->
       </div>
