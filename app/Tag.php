@@ -9,6 +9,8 @@ class Tag extends Model
 {
     use Sluggable;
 
+    protected $fillable = ['title'];
+
     // У одного тега может быть много ПОСТОВ
     public function posts() {
         return $this->belongsToMany(
