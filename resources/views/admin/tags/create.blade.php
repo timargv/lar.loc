@@ -32,7 +32,7 @@
         <div class="box-footer">
           <div class="col-xs-12 clearfix">
             <a href="{{route('tags.index')}}" class="btn btn-default">Назад</a>
-            <button class="btn btn-success pull-right">Добавить</button>            
+            <button class="btn btn-success pull-right">Добавить</button>
           </div>
         </div>
         <!-- /.box-footer-->
