@@ -39,8 +39,8 @@
                 <table id="example1" class="table table-bordered table-striped">
                   <thead>
                   <tr>
-                    <th width="50px">ID</th>
-                    <th width="100px">Имя</th>
+                    <th width="30px">ID</th>
+                    <th width="200px">Имя</th>
                     <th >E-mail</th>
                     <th width="200px">Аватар</th>
                     <th width="80px">Действия</th>
@@ -51,7 +51,7 @@
                     @foreach ($users as $user)
                       <tr>
                         <td>{{$user->id}}</td>
-                        <td>{{$user->name}}</td>
+                        <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
                         <td>{{$user->email}}</td>
                         <td>
                           <img src="{{$user->getAvatar()}}" alt="" class="img-responsive" width="100">
