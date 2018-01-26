@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->integer('is_admin')->default(0);
             $table->integer('is_ban')->default(0);
+            $table->string('avatar')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
